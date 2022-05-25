@@ -1,0 +1,24 @@
+In mpeg4-avc terminology (which is different than standard historical mpeg2 terminology) , SAR is the sample aspect ratio - but it's called PAR historically or pixel aspect ratio . I'm going to confuse you and introduce another term, FAR or frame aspect ratio which with the w:h of the actual frame dimension . These terms are called different names by different official publications, but the math is the same. That is the bottom line
+
+Display Aspect Ratio = Frame Aspect Ratio x Sample Aspect Ratio
+DAR=FARxSAR
+
+16/9 = 1440/1080 x 4/3
+
+Aspect Ratio = (w:h of frame dimensions) x (w:h of pixels)
+
+
+
+
+FYI, Historically in MPEG2 terminology:
+DAR = display aspect ratio 
+SAR = storage aspect ratio (frame size) 
+PAR = pixel aspect ratio (shape of individual pixels) 
+
+Display Aspect Ratio = Storage Aspect Ratio x Pixel Aspect Ratio
+
+Note the confusion here: SAR can be either storage aspect ratio or sample aspect ratio . There is no right or wrong, both governing bodies have used different conventions, although MPEG2 came out first. All the official specs for blu-ray etc. use AVC terminology , so they use Sample Aspect Ratio , not Storage Aspect Ratio. If they stuck with conventional terminology, there would be no confusion
+
+
+
+The bottom line is the ratios and math are the same , regardless of what you call the terms
